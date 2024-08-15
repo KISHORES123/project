@@ -1,0 +1,90 @@
+/* Footer.css */
+
+/* General Footer Styling */
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container Styling */
+  .hom_80 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Section Styling */
+  .hom_81, .hom_85, .hom_88, .hom_89 {
+    flex: 1;
+    margin: 10px;
+    max-width: 23%;
+  }
+  
+  /* Title Styling */
+  .hom_82, .hom_86 {
+    color: #2c3e50;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .hom_86 {
+    font-size: 1.2em;
+  }
+  
+  /* Description and Paragraph Styling */
+  .hom_83, .hom_87, .hom_93 {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .hom_87, .hom_93 {
+    font-size: 0.9em;
+  }
+  
+  .hom_93 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Social Media Icons Styling */
+  .hom_84 {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .hom_84 li {
+    margin: 0 10px;
+  }
+  
+  .hom_84 a {
+    color: #333;
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+  
+  .hom_84 a:hover {
+    color: #1e90ff; /* Change color on hover */
+  }
+  
+  /* Useful Links Styling */
+  .hom_90 {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .hom_90 li {
+    margin-bottom: 10px;
+  }
+  
+  .hom_91 {
+    color: #1e90ff;
+    text-decoration: none;
+  }
+  
+  .hom_91:hover {
+    text-decoration: underline;
+  }
+  

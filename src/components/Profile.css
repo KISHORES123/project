@@ -1,0 +1,110 @@
+/* Profile container styling */
+.profile-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+  
+  /* Form styling */
+  .profile-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Input group styling */
+  .input-group {
+    margin-bottom: 25px;
+
+  }
+  
+  /* Label styling */
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  /* Input styling */
+  .input-group input {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Input focus effect */
+  .input-group input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+  }
+  
+  /* Buttons container styling */
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Button styling */
+  .save-button,
+  .cancel-button,
+  .edit-button,
+  .logout-button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  /* Save button */
+  .save-button {
+    background-color: #28a745;
+    color: #ffffff;
+  }
+  
+  .save-button:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+  }
+  
+  /* Cancel button */
+  .cancel-button {
+    background-color: #dc3545;
+    color: #ffffff;
+  }
+  
+  .cancel-button:hover {
+    background-color: #c82333;
+    transform: translateY(-2px);
+  }
+  
+  /* Edit button */
+  .edit-button {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  /* Logout button */
+  .logout-button {
+    background-color: #6c757d;
+    color: #ffffff;
+  }
+  
+  .logout-button:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+  }

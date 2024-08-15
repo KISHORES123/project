@@ -1,0 +1,124 @@
+/* Container for the form */
+.add-pet-form-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.add-pet-form-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* General form group styling */
+.form-group-custom {
+    margin-bottom: 15px;
+}
+
+.form-group-custom label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group-custom input,
+.form-group-custom select,
+.form-group-custom textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-group-custom textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+/* Photo preview styling */
+.photo-preview {
+    margin-top: 10px;
+    position: relative;
+}
+
+.photo-preview img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.photo-details {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.photo-details p {
+    margin: 0;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.photo-details button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.photo-details button:hover {
+    background-color: #c0392b;
+}
+
+/* Submit button styling */
+.add-pet-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-pet-button:hover {
+    background-color: #2980b9;
+}
+
+/* Message and error styling */
+.form-message,
+.form-error {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form-message {
+    color: #27ae60;
+    background-color: #eafaf1;
+}
+
+.form-error {
+    color: #c0392b;
+    background-color: #fbe3e4;
+}

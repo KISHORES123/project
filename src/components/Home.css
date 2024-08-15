@@ -1,0 +1,276 @@
+.home-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.home-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0;
+  z-index: -1;
+}
+
+.home-hero-container {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.home-hero-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.home-hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5em;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+
+.search-container {
+  margin-top: 20px;
+}
+
+.search-select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 100px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #8096ae;
+  color: #fff;
+  font-size: 16px;
+  
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.adoption-steps {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  transition: transform 0.3s ease;
+}
+
+.step:hover {
+  transform: scale(1.05);
+}
+
+.icon {
+  font-size: 2em;
+  color: #007bff;
+  margin-right: 15px;
+}
+
+.step h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.step p {
+  color: #555;
+}
+
+.join-us {
+  background-color: #007bff;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+.join-us h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.join-us-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.join-us-item {
+  flex: 1 1 200px;
+  margin: 15px;
+  background-color: #0056b3;
+  padding: 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.join-us-item:hover {
+  background-color: #003d80;
+  transform: translateY(-5px);
+}
+
+.join-icon {
+  font-size: 2em;
+  color: #fff;
+}
+
+.reviews-section {
+  background-color: #f0f0f0;
+  padding: 40px;
+  text-align: center;
+}
+
+.reviews-section h2 {
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+.reviews-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review {
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+}
+
+.review-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.review-info {
+  margin-left: 15px;
+}
+
+.review-icon {
+  font-size: 2em;
+  color: #007bff;
+}
+
+.review-info h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.review-info p {
+  color: #666;
+}
+
+.review-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.review-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.latest-stories {
+  padding: 40px;
+  text-align: center;
+}
+
+.latest-stories h2 {
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+.latest-stories-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.story {
+  flex: 1 1 300px;
+  margin: 15px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.story:hover {
+  transform: scale(1.05);
+}
+
+.story h3 {
+  margin-top: 0;
+}
+
+.get-started {
+  background-color: #007bff;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.get-started-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #0056b3;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-right: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.get-started-button:hover {
+  background-color: #003d80;
+}
+
+.get-started-image{
+  max-height: 400px;
+  max-width: 400px;
+  text-align: center;
+}
